@@ -1,3 +1,9 @@
+# Script Details
+1. Takes input for plex token > adds to docker-compose.yml
+2. Takes input for real-debrid token > adds to config.yml
+3. Runs docker containers
+4. Attaches to plex_debrid for guided setup
+
 # Setup
 >git clone https://github.com/Dyl459/plex_debrid_zurg-docker/ && cd plex_debrid_zurg-docker && chmod +x script.sh && ./script.sh
 
@@ -13,9 +19,4 @@
    - Select the two libraries created above
    - Obtain Plex user token as per instructions at https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
 
-# Script Details
-1. Takes input for plex token > adds to docker-compose.yml
-2. Takes input for real-debrid token > adds to config.yml
-3. Runs docker containers
-4. Attaches to plex_debrid for guided setup
 
