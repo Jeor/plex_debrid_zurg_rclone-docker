@@ -7,7 +7,7 @@ services:
       - 9999:9999
     volumes:
       - ./plex_update.sh:/app/plex_update.sh
-      - ./config.yml:/app/config.yml
+      - ./zurgconfig.yml:/app/config.yml
       - zurgdata:/app/data
 
   rclone:
