@@ -1,8 +1,11 @@
 # Script Details
-1. Takes input for plex token > adds to docker-compose.yml
-2. Takes input for real-debrid token > adds to config.yml
-3. Runs docker containers
-4. Attaches to plex_debrid for guided setup
+1. Installs docker (Ubuntu)
+2. Takes input for plex token > adds to docker-compose.yml
+3. Takes input for real-debrid token > adds to config.yml
+4. Runs docker containers
+5. Attaches to plex_debrid for guided setup
+
+Tested Ubuntu 24.04
 
 # Setup
 >git clone https://github.com/Dyl459/plex_debrid_zurg-docker/ && cd plex_debrid_zurg-docker && sudo chmod +x script.sh && sudo ./script.sh
