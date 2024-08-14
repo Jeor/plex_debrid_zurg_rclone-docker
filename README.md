@@ -5,7 +5,7 @@
 4. Attaches to plex_debrid for guided setup
 
 # Setup
->git clone https://github.com/Dyl459/plex_debrid_zurg-docker/ && cd plex_debrid_zurg-docker && chmod +x script.sh && ./script.sh
+>git clone https://github.com/Dyl459/plex_debrid_zurg-docker/ && cd plex_debrid_zurg-docker && sudo chmod +x script.sh && sudo ./script.sh
 
 ## Plex Setup
 1. Open [IP]:32400
